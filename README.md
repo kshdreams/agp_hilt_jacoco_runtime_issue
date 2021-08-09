@@ -1,6 +1,6 @@
 # agp_hilt_jacoco_runtime_issue
 
-environment: agp 4.2.1 + hilt + jacoco 
+environment: agp 4.2.1 or 7.0.0 + hilt + jacoco  (agp 4.1.0 not reproduced)
 
 If you use target package inline function, This combination produces the following runtime error during instrumentation test
 
