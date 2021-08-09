@@ -4,6 +4,7 @@ environment: agp 4.2.1 + hilt + jacoco
 
 If you use target package inline function, This combination produces the following runtime error during instrumentation test
 
+```
 java.lang.IllegalAccessError: Method 'boolean[] com.sebiya.myapplication.ktx.LiveDataExtKt.$jacocoInit()' is inaccessible to class 'com.sebiya.myapplication.ktx.LiveDataExtTest$test$1' (declaration of 'com.sebiya.myapplication.ktx.LiveDataExtTest$test$1' appears in /data/app/com.sebiya.myapplication.test-k96V62DI7NLdC6nil9WOIg==/base.apk!classes4.dex)
 	at com.sebiya.myapplication.ktx.LiveDataExtTest$test$1.invokeSuspend(LiveDataExtTest.kt:11)
 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
@@ -15,3 +16,5 @@ java.lang.IllegalAccessError: Method 'boolean[] com.sebiya.myapplication.ktx.Liv
 	at java.lang.reflect.Method.invoke(Native Method)
 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:496)
 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1100)
+
+```
