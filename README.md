@@ -1,6 +1,6 @@
 # agp_hilt_jacoco_runtime_issue
 
-environment: agp 4.2.1 or 7.0.0 + hilt(2.37) + jacoco  
+environment: agp 4.2.1 or 7.0.0 + hilt(2.38.1) + jacoco  
 
 - agp 4.1.0 not reproduced
 - hilt 2.28-alpha not reproduced
