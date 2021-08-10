@@ -3,7 +3,7 @@
 environment: agp 4.2.1 or 7.0.0 + hilt(2.38.1) + jacoco  
 
 - agp 4.1.0 not reproduced
-- hilt 2.28-alpha not reproduced
+- hilt 2.29-alpha not reproduced
 
 If you use target package inline function, This combination produces the following runtime error during instrumentation test
 
