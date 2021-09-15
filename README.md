@@ -21,3 +21,12 @@ java.lang.IllegalAccessError: Method 'boolean[] com.sebiya.myapplication.ktx.Liv
 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1100)
 
 ```
+
+According to below issue tracker, this issue has been fixed since AGP 7.1 alpha 11 
+```
+https://issuetracker.google.com/issues/197065758
+
+am...@google.com<am...@google.com> #2Aug 25, 2021 12:45AM
+Marked as fixed.
+Fixed by https://android.googlesource.com/platform/tools/base/+/96875fd6262865cb77f13b42d213f8301d0833ab, the fix should land in AGP 7.1 alpha 11
+```
